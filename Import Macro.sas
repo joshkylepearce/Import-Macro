@@ -8,19 +8,19 @@ Purpose:
 Import an external file based on user-inputted parameters.
 
 Input Parameters:
-1. folder			- The file explorer location of the file.
+1. folder		- The file explorer location of the file.
 2. file_name		- The name of the file.
 3. file_extension	- The file extension (e.g. xlsx, csv, txt etc.).
-4. replace			- Binary indicator to overwrite pre-existing file (if exists).
+4. replace		- Binary indicator to overwrite pre-existing file (if exists).
 
 Macro Usage:
 1.	Run the import macro code.
 2.	Call the improt macro and enter the input parameters.
 	e.g. %import(
-	folder			= fileexplorer/folder,
-	file_name		= filexplorer_file,
+	folder		= fileexplorer/folder,
+	file_name	= filexplorer_file,
 	file_extension 	= csv,
-	replace			= 1
+	replace		= 1
 	);
 
 Notes:
@@ -90,8 +90,8 @@ Example: Import Macro Usage
 ************************************************************************************/
 
 %import(
-folder			= \\sasebi\SAS User Data\Josh Pearce\DATA,
-file_name		= TOURISM,
+folder		= \\sasebi\SAS User Data\Josh Pearce\DATA,
+file_name	= TOURISM,
 file_extension 	= xlsx,
-replace			= 1
+replace		= 1
 );
