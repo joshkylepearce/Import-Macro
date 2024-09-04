@@ -15,7 +15,7 @@ Input Parameters:
 
 Macro Usage:
 1.	Run the import macro code.
-2.	Call the improt macro and enter the input parameters.
+2.	Call the import macro and enter the input parameters.
 	e.g. %import(
 	folder		= fileexplorer/folder,
 	file_name	= filexplorer_file,
